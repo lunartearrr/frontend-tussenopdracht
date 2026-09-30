@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="nl" data-theme="beige">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Nova Webshop</title>
+</head>
+<body>
+
+<div class="wrapper">
+    <header class="page-header">
+        <div class="header-nav">
+            <a class="logo" href="index.html">
+                <img class="logo" src="assets/images/logo/logo-beige.png" alt="Nova logo">
+            </a>
+            <nav class="nav-links" aria-label="Navigatie menu">
+                <a href="#omschrijving" class="header-nav-link">Omschrijving</a>
+                <a href="#related-products" class="header-nav-link">Gerelateerde producten</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-body">
+        <section class="product-section">
+            <div class="product-content">
+                <h1 class="product-title">Nova Aroma Diffuser</h1>
+                <p class="product-description">Vul je ruimte met een subtiele geur en creëer een rustgevende sfeer.</p>
+            </div>
+        </section>
+
+        <section class="product-showcase">
+            <div class="product-image">
+                <img class="product-image" src="assets/images/product-photos/product-1.png" alt="Nova Aroma Diffuser op een tafel, met zichtbaar stoom">
+            </div>
+            <div class="product-summary">
+                <h2>Korte omschrijving</h2>
+                <p>Werkt geruisloos, past bij elk interieur en zorgt voor een aangename geur in elke ruimte van je huis.</p>
+                <span class="price">€26,95</span>
+                <form class="order-form" action="#" method="post">
+                    <div class="quantity-field">
+                        <label for="quantity">Aantal</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    </div>
+                    <button type="submit" class="order-button">Bestellen</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="product-description-section">
+            <div class="product-description">
+                <h2 id="omschrijving">Omschrijving</h2>
+                <p>Deze aroma diffuser heeft een strak, eenvoudig design en is heel praktisch in gebruik. Hij is gemaakt van keramiek en verspreidt zonder geluid lucht met je favoriete olie. Perfect voor een rustige sfeer in de woonkamer of slaapkamer.</p>
+            </div>
+            <div class="product-plus-min">
+                <h3>Plus- en minpunten</h3>
+                <ul class="pros-cons-list">
+                    <li class="pro">Werkt volledig geruisloos</li>
+                    <li class="pro">Past bij elk interieur</li>
+                    <li class="pro">Tot 8 uur gebruik</li>
+                    <li class="con">Geschikt voor kleine ruimtes</li>
+                    <li class="con">Olie is niet inbegrepen</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="related-products-section" id="related-products">
+            <h2>Gerelateerde producten</h2>
+            <div class="related-products">
+                <div class="related-product-card">
+                    <img class="product-image" src="assets/images/product-photos/product-2.jpg"
+                         alt="Drie flesjes olie: sweet orange, lavender en tea tree.">
+                    <h3 class="product-title">Olieset voor Aroma Diffuser</h3>
+                    <small>Drie geconcentreerde etherische oliën: Sweet Orange, Lavender en Tea Tree. Voor een frisse of juist rustgevende sfeer.</small>
+                </div>
+
+                <div class="related-product-card">
+                    <img class="product-image" src="assets/images/product-photos/product-3.png" alt="Brandende sfeerkaars Sandalwood op een houten plank">
+                    <h3 class="product-title">Sfeerkaars Sandalwood</h3>
+                    <small>Een warme, houtachtige geur die perfect samengaat met een rustige avond thuis. Brandt tot 40 uur.</small>
+                </div>
+
+                <div class="related-product-card">
+                    <img class="product-image" src="assets/images/product-photos/product-4.png" alt="Mini luchtbevochtiger waar stoom uit komt, op een houten tafeltje">
+                    <h3 class="product-title">Mini lucht-bevochtiger</h3>
+                    <small>Compact en stijlvol, ideaal voor op je bureau of nachtkastje. Verbetert de luchtvochtigheid zonder geluid te maken.</small>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <nav class="footer-content" aria-label="Navigatie van footer">
+            <a href="privacy-policy.html" class="footer-nav-link">Privacy Policy</a>
+            <a href="terms-and-conditions.html" class="footer-nav-link">Terms &amp; Conditions</a>
+            <a href="cookie-policy.html" class="footer-nav-link">Cookie Policy</a>
+            <a href="contact.html" class="footer-nav-link">Contact</a>
+        </nav>
+        <p class="copyright">© Nova 2026</p>
+    </footer>
+
+</div>
+</body>
+</html>
