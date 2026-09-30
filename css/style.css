@@ -185,3 +185,96 @@ a.footer-nav-link:hover {
     padding-inline: var(--page-padding);
 }
 
+.product-showcase {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    border: var(--border-bottom);
+    padding-inline: var(--page-padding);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.product-showcase .product-image {
+    flex: 1;
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
+    border: var(--border-bottom);
+    overflow: hidden;
+}
+
+.product-showcase .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.product-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: var(--border-bottom);
+}
+
+.product-summary {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.price {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.quantity-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-field label {
+    font-size: 15px;
+    color: var(--color-text);
+}
+
+.quantity-field input {
+    width: 70px;
+    padding: 6px 8px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color .2s ease;
+}
+
+.quantity-field input:focus-visible {
+    border-color: var(--color-primary);
+}
+
+.order-button {
+    align-self: flex-start;
+    width: stretch;
+    padding: 10px 24px;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .2s ease, color .2s ease, transform .15s ease;
+}
+
+.order-button:hover {
+    color: var(--color-accent);
+    transform: translateY(-1px);
+}
+
