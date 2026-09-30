@@ -278,3 +278,60 @@ a.footer-nav-link:hover {
     transform: translateY(-1px);
 }
 
+.product-description-section {
+    display: flex;
+    align-items: stretch;
+    gap: 30px;
+    padding: var(--section-padding);
+    padding-inline: var(--page-padding);
+    border-bottom: var(--border-bottom);
+}
+
+.product-description,
+.product-plus-min {
+    margin: 10px;
+}
+
+.product-description {
+    flex: 1;
+}
+
+.product-plus-min {
+    flex: 0 0 300px;
+    order: -1;
+    background: var(--color-bg-muted);
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-plus-min h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.pros-cons-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pros-cons-list li {
+    padding: 4px 0;
+    font-size: 15px;
+}
+
+.pro::before {
+    content: "✓ ";
+    color: green;
+    font-weight: bold;
+}
+
+.con::before {
+    content: "✕ ";
+    color: red;
+    font-weight: bold;
+}
+
