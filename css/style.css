@@ -335,3 +335,42 @@ a.footer-nav-link:hover {
     font-weight: bold;
 }
 
+.related-products-section {
+    padding: var(--section-padding);
+    padding-inline: var(--page-padding);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: var(--color-bg-light);
+}
+
+.related-products-content {
+    margin: 2px;
+    justify-items: center;
+}
+
+.related-products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.related-product-card {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+    background: white;
+    padding: 16px;
+    border-radius: 6px;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.related-product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+}
+
+.related-product-card .product-title {
+    display: block;
+    text-align: left;
+}
+
