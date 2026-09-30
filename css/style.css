@@ -6,7 +6,8 @@
     --border-bottom: 1px solid #ccc;
 }
 
-/* Themes: I first chose a purple (lavender) theme, but eventually decided to switch to a beige theme. */  [data-theme="beige"] {
+/* Themes: I first chose a purple (lavender) theme, but eventually decided to switch to a beige theme. */
+[data-theme="beige"] {
     --color-primary: #24130b;
     --color-accent: #EDE8E8;
     --color-bg-light: #edebdf;
