@@ -151,3 +151,37 @@ a.footer-nav-link:hover {
     font-style: italic;
 }
 
+
+.product-section {
+    background: var(--color-bg-light);
+    padding: var(--section-padding);
+}
+
+.product-title {
+    display: flex;
+    justify-content: center;
+}
+
+.product-content {
+    padding: 30px;
+    padding-inline: var(--page-padding);
+    text-align: center;
+}
+
+.product-details-section {
+    padding: var(--section-padding);
+    padding-inline: var(--page-padding);
+    border-bottom: var(--border-bottom);
+}
+
+.product-details-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-section {
+    padding: var(--section-padding);
+    padding-inline: var(--page-padding);
+}
+
