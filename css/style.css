@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+:root {
+    --page-padding: 25%;
+    --section-padding: 35px 0;
+    --border-bottom: 1px solid #ccc;
+}
+
+/* Themes: I first chose a purple (lavender) theme, but eventually decided to switch to a beige theme. */  [data-theme="beige"] {
+    --color-primary: #24130b;
+    --color-accent: #EDE8E8;
+    --color-bg-light: #edebdf;
+    --color-text: #311f15;
+    --color-bg-muted: #efefef;
+}
+
+[data-theme="lavender"] {
+    --color-primary: #240046;
+    --color-accent: #b09ac4;
+    --color-bg-light: #FAF6FDFF;
+    --color-text: #6f6f6f;
+    --color-bg-muted: #F2F2F2;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Jost", "Arial", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font: 1.2em sans-serif;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.page-body {
+    flex-grow: 1;
+}
+
