@@ -47,3 +47,37 @@ html, body {
     flex-grow: 1;
 }
 
+h1, h2, h3, h4 {
+    color: var(--color-primary);
+    font-family: "Baskerville Old Face", serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h3.product-title {
+    font-size: 23px;
+}
+
+p, a {
+    font-size: 20px;
+}
+
+p {
+    color: var(--color-text);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
